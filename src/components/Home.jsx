@@ -46,9 +46,10 @@ export default function Home() {
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTipmhXLcb08JQsFHbthfatyO79_rCEXm0s-2i7FRfXg&s"
             alt=""
           />
+          
           <Dropdown label={"Electronics"} inline color="black">
-            <Dropdown.Header>
-            </Dropdown.Header>
+            <div className="w-60">
+
             <Dropdown.Item >Dashboard</Dropdown.Item>
             <Dropdown.Item >Settings</Dropdown.Item>
             <Dropdown.Item >Earnings</Dropdown.Item>
@@ -58,6 +59,7 @@ export default function Home() {
             <Dropdown.Item >Dashboard</Dropdown.Item>
             <Dropdown.Item >Settings</Dropdown.Item>
             <Dropdown.Item >Earnings</Dropdown.Item>
+            </div>
 
           </Dropdown>
         </div>
@@ -68,8 +70,7 @@ export default function Home() {
             alt=""
           />
           <Dropdown label={"Electronics"} inline color="black">
-            <Dropdown.Header>
-            </Dropdown.Header>
+            <div className="w-60">
             <Dropdown.Item >Dashboard</Dropdown.Item>
             <Dropdown.Item >Settings</Dropdown.Item>
             <Dropdown.Item >Earnings</Dropdown.Item>
@@ -79,7 +80,7 @@ export default function Home() {
             <Dropdown.Item >Dashboard</Dropdown.Item>
             <Dropdown.Item >Settings</Dropdown.Item>
             <Dropdown.Item >Earnings</Dropdown.Item>
-
+        </div>
           </Dropdown>
         </div>
         <div className="flex flex-col gap-2 justify-center item">
@@ -89,8 +90,7 @@ export default function Home() {
             alt=""
           />
           <Dropdown label={"Electronics"} inline color="black">
-            <Dropdown.Header>
-            </Dropdown.Header>
+            <div className="w-60">
             <Dropdown.Item >Dashboard</Dropdown.Item>
             <Dropdown.Item >Settings</Dropdown.Item>
             <Dropdown.Item >Earnings</Dropdown.Item>
@@ -100,7 +100,7 @@ export default function Home() {
             <Dropdown.Item >Dashboard</Dropdown.Item>
             <Dropdown.Item >Settings</Dropdown.Item>
             <Dropdown.Item >Earnings</Dropdown.Item>
-
+            </div>
           </Dropdown>
         </div>
       </div>

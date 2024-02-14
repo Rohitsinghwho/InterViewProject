@@ -19,9 +19,11 @@ export default function Header() {
   return (
     <Navbar className=" m-2">
       <div className="flex  justify-between gap-1 items-center ml-3 sm:ml-15">
-        <button className="sm:hidden">
+        {/* <button><FiAlignJustify size={'25'}/></button> */}
           {/* <FiAlignJustify className="" size="25" /> */}
-          <Dropdown label={<FiAlignJustify size={'25'}/>} placement="right-start" color="black" className="w-48">
+          {
+          <Dropdown label={<FiAlignJustify size={'25'}/>} arrowIcon={false} color="black" className="w-48">
+        <div className="min-w-xl min-h-screen">
         <Dropdown.Item>Dashboard</Dropdown.Item>
         <Dropdown.Item>Settings</Dropdown.Item>
         <Dropdown.Item>Earnings</Dropdown.Item>
@@ -37,8 +39,9 @@ export default function Header() {
         <Dropdown.Item>Settings</Dropdown.Item>
         <Dropdown.Item>Earnings</Dropdown.Item>
         <Dropdown.Item>Sign out</Dropdown.Item>
+        </div>
       </Dropdown>
-        </button>
+  }
         <span className="text-md sm:text-lg">Flip</span>
         <span className="text-md sm:text-xl text-white bg-gradient-to-r from-indigo-500 via-purple-400 to-pink-500 rounded-lg">
           kart
