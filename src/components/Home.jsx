@@ -105,7 +105,7 @@ export default function Home() {
         </div>
       </div>
       {/* cards */}
-      <div className="mt-2 bg-white p-2">
+      <div className="mt-2 bg-white p-2 rounded-lg">
         <h1 className="text-2xl font-semibold">Best in Electronics</h1>
         <div className="flex gap-2 overflow-x-scroll">
         <CardComp/>
@@ -117,7 +117,7 @@ export default function Home() {
         </div>
 
       </div>
-      <div className="mt-2 bg-white p-2">
+      <div className="mt-2 bg-white p-2 rounded-lg">
         <h1 className="text-2xl font-semibold">Best in Electronics</h1>
         <div className="flex gap-2 overflow-x-scroll">
         <CardComp/>
@@ -129,7 +129,7 @@ export default function Home() {
         </div>
 
       </div>
-      <div className="mt-2 bg-white p-2">
+      <div className="mt-2 bg-white p-2 rounded-lg">
         <h1 className="text-2xl font-semibold">Best in Electronics</h1>
         <div className="flex gap-2 overflow-x-scroll">
         <CardComp/>
