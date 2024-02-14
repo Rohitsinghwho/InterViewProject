@@ -19,8 +19,7 @@ export default function Header() {
   return (
     <Navbar className=" m-2">
       <div className="flex  justify-between gap-1 items-center ml-3 sm:ml-15">
-        {/* <button><FiAlignJustify size={'25'}/></button> */}
-          {/* <FiAlignJustify className="" size="25" /> */}
+        
           <div className="sm:hidden">
           <Dropdown label={<FiAlignJustify size={'25'}/>} arrowIcon={false} color="black" className="w-48">
         <div className="min-w-xl min-h-screen">
