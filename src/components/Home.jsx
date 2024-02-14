@@ -5,7 +5,7 @@ import {Dropdown,Carousel} from 'flowbite-react'
 import CardComp from "./Card";
 export default function Home() {
   return (
-    <div className="px-2 sm:px-8 py-2 h-screen  bg-gray-200">
+    <div className="px-2 sm:px-8 py-2 min-h-screen w-full  bg-gray-200">
       {/* products */}
       <div className="flex gap-20 overflow-x-scroll sm:overflow-hidden sm:justify-center bg-white rounded-lg h-44">
         <div className="flex flex-col gap-2 justify-center">
@@ -114,7 +114,30 @@ export default function Home() {
         <CardComp/>
         <CardComp/>
         <CardComp/>
-        
+        </div>
+
+      </div>
+      <div className="mt-2 bg-white p-2">
+        <h1 className="text-2xl font-semibold">Best in Electronics</h1>
+        <div className="flex gap-2 overflow-x-scroll">
+        <CardComp/>
+        <CardComp/>
+        <CardComp/>
+        <CardComp/>
+        <CardComp/>
+        <CardComp/>
+        </div>
+
+      </div>
+      <div className="mt-2 bg-white p-2">
+        <h1 className="text-2xl font-semibold">Best in Electronics</h1>
+        <div className="flex gap-2 overflow-x-scroll">
+        <CardComp/>
+        <CardComp/>
+        <CardComp/>
+        <CardComp/>
+        <CardComp/>
+        <CardComp/>
         </div>
 
       </div>
