@@ -21,7 +21,7 @@ export default function Header() {
       <div className="flex  justify-between gap-1 items-center ml-3 sm:ml-15">
         {/* <button><FiAlignJustify size={'25'}/></button> */}
           {/* <FiAlignJustify className="" size="25" /> */}
-          {
+          <div className="sm:hidden">
           <Dropdown label={<FiAlignJustify size={'25'}/>} arrowIcon={false} color="black" className="w-48">
         <div className="min-w-xl min-h-screen">
         <Dropdown.Item>Dashboard</Dropdown.Item>
@@ -41,7 +41,7 @@ export default function Header() {
         <Dropdown.Item>Sign out</Dropdown.Item>
         </div>
       </Dropdown>
-  }
+      </div>
         <span className="text-md sm:text-lg">Flip</span>
         <span className="text-md sm:text-xl text-white bg-gradient-to-r from-indigo-500 via-purple-400 to-pink-500 rounded-lg">
           kart
